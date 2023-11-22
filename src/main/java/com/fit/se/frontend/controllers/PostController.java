@@ -80,7 +80,6 @@ public class PostController {
     public String showInsertBlogForm(Model model) {
         Post post = new Post();
         model.addAttribute("post", post);
-
         return "post/insert-blog";
     }
 
